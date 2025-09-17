@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#navbar{
+    background: #f9f9f9;
+}
+.logo img{
+    width: 120px;
+    height: 100px;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #ffa500;
+}
+.navbar-toggler span{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #ffa500;
+    color: white;
+}
+
+
+button{
+    border: none;
+    color: #fff;
+    background-color:#ffa500 ;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.button-login{
+  background-color: #ffffffbb;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+
+
+.home{
+    width: 100%;
+    height: 90%;
+    background-image:  url(../TRabalhoitw/imagens/fundoHome.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 250px;
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+ 
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #ffa500;
+    color: white;
+}
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .home .content h5{
+        font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+
+.reserva{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.main-text h1 span{
+    color: #ffa500;
+}
+.reserva .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.reserva .row{
+    margin-top: 30px;
+}
+.reserva form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.reserva form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.reserva .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.reserva .submit:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .reserva{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #ffa500;
+}
+.destinos .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.destinos .card img{
+    border-radius: 5px;
+}
+.destinos .card .card-body{
+    background: transparent;
+}
+.destinos .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.destinos .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.destinos .card .card-body h6{
+    font-size: 20px;
+}
+.destinos .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.serviços{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.serviços .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.serviços .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.serviços .card .card-body h3{
+    font-weight: 600;
+}
+.serviços .card .card-body{
+    text-align: center;
+}
+
+
+
+
+
+
+.galeria{
+    margin-top: 50px;
+}
+.galeria .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.galeria .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.galeria .card img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.sobrenos{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.sobrenos .card{
+    border-radius: 10px;
+}
+.sobrenos .card map{
+    border-radius: 0px;
+}
+.sobrenos h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sobrenos p{
+    font-weight: 500;
+}
+#sobrenos-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#sobrenos-btn:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .sobrenos{
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+#footer{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: #ffa500;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+footer a {
+    color: black;
+    text-decoration: none;
+  }
+
